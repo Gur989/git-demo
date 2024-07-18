@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <style>
+        @keyframes colorchange{
+
+            0%{
+                background-color: aqua;
+                left:0px;
+                top:0px;
+            }
+            50%{
+                background-color:blueviolet;
+                left:30px;
+                top:0px;
+            }
+            100%{
+                background-color:chartreuse;
+                left:15px;
+                top:30px;
+
+            }
+}
+
+        .squre{
+            width:30px;
+            height:30px;
+            background-color:red;
+            position:relative;
+            animation-name: colorchange;
+            animation-duration: 3s;
+            animation-delay:0s;
+            animation-iteration-count:5;
+            animation-timing-function: linear;
+
+        }
+    </style>
+        
+    
+    <div class="squre">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.navbar{
+    height:15%;
+}
+
+.navbar-brand,.imagLogo:hover{
+    height:80px;
+    color:black;
+    width:80px;
+    
+}
+.navbar-nav{
+   
+    width:70%
+}
+.nav-item{
+   margin-right:5%;
+   
+}
+.nav-link,.nav-link:active{
+    color:black;
+}
+.nav-link:hover{
+    color:red;
+}
+
+#mainHeading{
+   font-size: 4rem;
+   
+}
+#mainHeading:hover{
+    color:rgb(7, 7, 7);
+    font-weight: 500;
+    /* font-style: oblique; */
+    
+}
+.tell{
+    margin-left: 5%;
+    height:25%;
+    width:30%;
+    font-size: 2vw;
+    font-weight: 700; 
+    border:none;
+    outline:none;
+    /* background-color: rgb(231, 228, 47); */
+}
+
+.main{
+   background-image: url("foodAppBackground.png");
+   background-size: cover;
+   background-color: rgba(202, 241, 173, 0.514);
+    /* background-image: url("foodAppBackground.png"); */
+    height:85vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.atebtn:hover{
+    background-color: rgb(255, 6, 6);
+    transition:0.5s;
+}
+
+.card:hover{
+    -webkit-box-shadow: 10px 7px 64px -4px rgba(0,0,0,0.29);
+-moz-box-shadow: 10px 7px 64px -4px rgba(0,0,0,0.29);
+box-shadow: 10px 7px 64px -4px rgba(0,0,0,0.29);
+transition:0.5s;
+}
